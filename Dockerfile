@@ -1,10 +1,9 @@
-# Ghost
 #
 # VERSION               0.0.1
-# BUILD-USING:        docker build -t docker-base-ruby .
-# PUSH-USING:         docker tag docker-base-ruby surf/docker-base-ruby  && docker push surf/docker-base-ruby
+# BUILD-USING:        docker build -t base-ruby .
+# PUSH-USING:         docker tag base-ruby surf/base-ruby  && docker push surf/base-ruby
 
-FROM     surf/docker-base
+FROM     surf/base
 MAINTAINER Dan Kinsley <dan@surfbeta.com>
 
 # make sure the package repository is up to date
